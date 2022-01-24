@@ -43,14 +43,14 @@ body {
 	background-color: black;
 }
 
-.subtitle {
+#subtitle {
     font-family: 'Krona One', sans-serif;
     color: white;
     text-align: center;
     font-size: 50px;
 }
 
-.text {
+#text {
     font-family: 'Krona One', sans-serif;
     color: white;
     text-align: center;
