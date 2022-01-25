@@ -8,6 +8,7 @@
 	top: 0;
 	width: 100%;
 	font-family: 'Krona One', sans-serif;
+	z-index: 1;
 }
 
 
@@ -24,7 +25,7 @@ li a {
 }
 
 li a:hover {
-	background-color: #111;
+	background-color: rgb(29, 81, 160);
 }
 
 
@@ -35,7 +36,7 @@ body {
 
 .empty_space {
 	display: block;
-	height:1000px;
+	height:200px;
 }
 
 #main_info {
@@ -66,12 +67,15 @@ body {
 	color: white;
   }
   
-
+#purdue_img {
+	padding-top: 50px;
+	filter: blur(4px);
+}
   
   /* Centered text */
   .centered {
 	position: absolute;
-	top: 30%;
+	top: 27%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
@@ -81,6 +85,11 @@ body {
 	color: white;
   }
 
-  img {
-	  padding-top: 50px;
+  .below_centered {
+	  position: absolute;
+	  top: 50%;
+	  left: 35%;
+	  transform: translate(-50%, -50%);	
+	  transform: scale(0.3, 0.3);
   }
+

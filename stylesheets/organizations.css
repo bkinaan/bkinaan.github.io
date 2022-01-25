@@ -27,9 +27,6 @@ li a:hover {
 	background-color: #111;
 }
 
-.active {
-	background-color: #04AA6D;
-}
 
 #title {
 	text-align: center;
@@ -41,6 +38,7 @@ li a:hover {
 
 body {
 	background-color: black;
+	margin: 0px;
 }
 
 #subtitle {
