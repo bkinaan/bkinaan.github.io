@@ -292,9 +292,9 @@ const degrees = {
       duration: "2021 - 2025",
       descriptions: [
         "⚡ Learning data structures, algorithms and the fundamental concepts behind Computer Science",
-        "⚡ Taking a focus on Machine Intelligence and Artifical Intelligence",
+        "⚡ Focusing on Machine Intelligence and Artifical Intelligence",
         "⚡ Programming experience in Java, C, C++, and Bash while working with IntelliJ, Vim and VSCode",
-        "⚡ Worked collaboritviely with other undergraduate students using Git and GitHub"
+        "⚡ Working collaboratively with other undergraduate students using Git and GitHub"
       ],
       website_link: "https://www.purdue.edu/",
     },
@@ -496,7 +496,7 @@ const experience = {
           duration: "April 2022 - Current",
           location: "West Lafayette, IN",
           description:
-            "I set up and led an activity day with at least 40 mentors and little buddies as well as four general managers. Every week the little buddies come to Purdue's campus and learn and do awesome activites to get them engaged and excited about college.",
+            "I lead an entire activity day with at least 40 mentors and little buddies as well as four general managers. Every week the little buddies come to Purdue's campus and learn and do awesome activites to get them engaged and excited about college.",
           color: "#ee3c26",
         },
         {
