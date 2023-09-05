@@ -44,7 +44,7 @@ export default function Projects() {
     let test6 = {
         name: "Portfolio",
         time: "Jun. 2023 - Sept. 2023",
-        desc: "This project. Createad using NextJS and TailwindCSS.",
+        desc: "This project. Createad using NextJS and TailwindCSS. Hosted on GitHub Pages.",
         link: "",
         pos: "br",
     }
