@@ -1,5 +1,6 @@
 import Projects from './components/projects-list';
 import Top from './components/top';
+import Skills from './components/skills-list';
 
 export default function Home() {
     return (
@@ -15,7 +16,8 @@ export default function Home() {
             <div className='z-30'>
                 <Projects />
             </div>
-            <div className='mb-8'></div>
+            <div className='mb-48'></div>
+            <Skills />
             <div className='text-white mt-16 mb-4 p-2 border-2 rounded-md'>Made By Brandon Kinaan | <a className='hover:underline' href='https://github.com/bkinaan/bkinaan.github.io'>Code on GitHub</a></div>
         </main>
     );
