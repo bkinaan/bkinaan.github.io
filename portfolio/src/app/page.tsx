@@ -16,6 +16,7 @@ export default function Home() {
                 <Projects />
             </div>
             <div className='mb-8'></div>
+            <div className='text-white mt-16 mb-4 p-2 border-2 rounded-md'>Made By Brandon Kinaan | <a className='hover:underline' href='https://github.com/bkinaan/bkinaan.github.io'>Code on GitHub</a></div>
         </main>
     );
 }

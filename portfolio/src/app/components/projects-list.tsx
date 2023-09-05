@@ -45,7 +45,7 @@ export default function Projects() {
         name: "Portfolio",
         time: "Jun. 2023 - Sept. 2023",
         desc: "This project. Createad using NextJS and TailwindCSS. Hosted on GitHub Pages.",
-        link: "",
+        link: "https://github.com/bkinaan/bkinaan.github.io",
         pos: "br",
     }
 
