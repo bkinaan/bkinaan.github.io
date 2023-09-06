@@ -18,7 +18,8 @@ export default function Home() {
             </div>
             <div className='mb-48'></div>
             <Skills />
-            <div className='text-white mt-16 mb-4 p-2 border-2 rounded-md'>Made By Brandon Kinaan | <a className='hover:underline' href='https://github.com/bkinaan/bkinaan.github.io'>Code on GitHub</a></div>
+            <a href='https://github.com/bkinaan/bkinaan.github.io'>
+            <div className='text-white mt-16 mb-8 p-2 border-2 rounded-md shadow-md shadow-slate-100 hover:translate-y-2 hover:shadow-sm hover:shadow-slate-100 hover:text-black hover:bg-white transition duration-300 ease-in-out'>Made By Brandon Kinaan | Code on GitHub</div></a>
         </main>
     );
 }
