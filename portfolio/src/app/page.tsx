@@ -19,7 +19,7 @@ export default function Home() {
             <div className='mb-48'></div>
             <Skills />
             <a href='https://github.com/bkinaan/bkinaan.github.io'>
-                <div className='text-white p-2 border-2 rounded-md shadow-md shadow-slate-100 hover:translate-y-2 hover:shadow-sm hover:shadow-slate-100 hover:text-black hover:bg-white transition duration-300 ease-in-out'>Made By Brandon Kinaan | Code on GitHub</div>
+                <div className='text-white p-2 border-2 rounded-md shadow-md shadow-slate-100 hover:translate-y-2 hover:shadow-sm hover:shadow-slate-100 hover:text-black hover:bg-white transition duration-300 ease-in-out'>Made by Brandon Kinaan | Code on GitHub</div>
             </a>
             <div className='pt-10'></div>
         </main>
