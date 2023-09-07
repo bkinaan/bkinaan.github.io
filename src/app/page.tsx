@@ -11,7 +11,7 @@ export default function Home() {
             <div className="text-black bg-white text-4xl p-2 mt-36 rounded-lg font-ss3 font-semibold text-center z-10">Hello, there! I&apos;m...</div>
             <div className='pb-10'>
                 <video className="z-0" autoPlay muted>
-                    <source src="assets/name_cropped.MP4" type="video/mp4"/>
+                    <source src="assets/name_cropped.mp4" type="video/mp4"/>
                 </video>
             </div>
             <div className='z-20 mb-36 py-5 px-2 text-4xl font-ss3 font-bold text-center text-black bg-white rounded-lg'>Junior | Honors | Computer Science @ Purdue Univeristy</div>
