@@ -11,7 +11,7 @@ export default function Projects() {
 
     let project2 = {
         name: "Darktime",
-        lang: "Java, Swing",
+        lang: "Java",
         desc: "A synchronous discussion management platform built using Java GUI. Lets instructors and students collaborate in real time.",
         link: "https://kinaan.wixsite.com/darktime",
         pos: "tr",
@@ -44,7 +44,7 @@ export default function Projects() {
     let project6 = {
         name: "Portfolio",
         lang: "Javascript, HTML, CSS",
-        desc: "This project. Createad using NextJS and TailwindCSS. Hosted on GitHub Pages.",
+        desc: "This project. Createad using Next.js and TailwindCSS. Hosted on GitHub Pages.",
         link: "https://github.com/bkinaan/bkinaan.github.io",
         pos: "br",
     }
