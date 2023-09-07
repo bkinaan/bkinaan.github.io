@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
-/* const nextConfig = {
+const nextConfig = {
     output: 'export'
 }
 
-module.exports = nextConfig */
+module.exports = nextConfig
 
 /* const repo = 'bkinaan.github.io'
 const assetPrefix = `/${repo}/`
@@ -14,7 +14,7 @@ module.exports = {
   basePath: basePath,
 } */
 
-const isGithubActions = process.env.GITHUB_ACTIONS || false
+/* const isGithubActions = process.env.GITHUB_ACTIONS || false
 
 let assetPrefix = ''
 let basePath = '/'
@@ -30,3 +30,4 @@ module.exports = {
   assetPrefix: assetPrefix,
   basePath: basePath,
 }
+ */
