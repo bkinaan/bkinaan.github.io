@@ -6,7 +6,7 @@ import Involvements from './components/involvements-list';
 
 export default function Home() {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between">
+        <main className="flex min-h-screen flex-col items-center justify-between bg-black">
             <Top />
             <div className="text-black bg-white text-4xl p-2 mt-36 rounded-lg font-ss3 font-semibold text-center z-10">Hello, there! I&apos;m...</div>
             <div className='pb-10'>
