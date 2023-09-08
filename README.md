@@ -50,7 +50,9 @@ npm run dev
 
 7. View changes
 
-You can go to localhost:3000 in any browser and saved changes will show up live.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 ## 👷‍♂️ Production Build
 
