@@ -23,7 +23,7 @@ export default function Project(props: {name: string, lang: string, desc: string
         <div className="opacity-0 rounded-bl-lg"></div>
     {/* <div className="border-4 max-w-md shadow-lg shadow-slate-100 hover:translate-y-2 hover:shadow-md hover:shadow-slate-100 transition duration-300 ease-in-out"> */}
         <div className="pl-3 pb-5 pr-3">
-            <a href={props.link}>
+            <a href={props.link} target="_blank">
             <div className="text-white text-3xl md:text-5xl pt-3 font-ss3 font-bold">{props.name}</div>
             <div className="text-white font-ss3 font-thin pb-3">{props.lang}</div>
             <div className="text-white font-ss3">{props.desc}</div>

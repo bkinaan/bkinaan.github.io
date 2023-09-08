@@ -26,7 +26,7 @@ export default function Experience(props: {role: string, company: string, time: 
             <div className="opacity-0 rounded-l-lg"></div>
             <div className="opacity-0 rounded-r-lg"></div>
             <div className="pl-3 pb-5 pr-3">
-                <a href={props.link}>
+                <a href={props.link} target="_blank">
                     <div className="text-white font-ss3 text-2xl md:text-5xl font-bold pt-3">{props.role}</div>
                     <div className="text-white font-ss3 text-xl font-medium">{props.company}</div>
                     <div className="text-white `font-ss3 font-thin pb-3">{props.time}</div>

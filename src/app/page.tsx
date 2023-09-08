@@ -27,7 +27,7 @@ export default function Home() {
                 <Skills />
                 <Experiences />
                 <Involvements />
-                <a href='https://github.com/bkinaan/bkinaan.github.io'>
+                <a href='https://github.com/bkinaan/bkinaan.github.io' target="_blank">
                     <div className='text-white p-2 mt-5 border-2 rounded-md shadow-md shadow-slate-100 hover:translate-y-2 hover:shadow-sm hover:shadow-slate-100 hover:text-black hover:bg-white transition duration-300 ease-in-out'>Made by Brandon Kinaan | Code on GitHub</div>
                 </a>
                 <div className='pt-5'></div>
