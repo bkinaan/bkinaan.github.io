@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+    <h1 alight="center">
+        Brandon Kinaan's Portfolio
+    </h1>
 
-## Getting Started
+</div>
 
-First, run the development server:
+## 🎉 Welcome
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+This is my portfolio built on [Next.js](https://nextjs.org) as well as [TailwindCSS](https://tailwindcss.com) and deployed on [GitHub Pages](https://pages.github.com/). Feel free to fork this repo but only with attribution to [kinaan.me](https://www.kinaan.me).
+
+## 🔧 Installation and Setup
+
+1. Check if you have Node and npm installed
+
+```sh
+node -v
+npm -v
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. If necessary install node and npm using homebrew
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+brew install node
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Clone this repo
 
-## Learn More
+```sh
+git clone https://github.com/bkinaan/bkinaan.github.io.git
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Move into the project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+cd bkinaan.github.io
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Install dependencies
 
-## Deploy on Vercel
+```sh
+npm i
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. Start development environment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```sh
+npm run dev
+```
+
+7. View changes
+
+You can go to localhost:3000 in any browser and saved changes will show up live.
+
+## 👷‍♂️ Production Build
+
+1. Generate a static build
+
+```sh
+npm run build
+```
+
+Use the production build for deployment. For GitHub Pages, the main branch can be deployed using GitHub Actions.
