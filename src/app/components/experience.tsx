@@ -11,13 +11,13 @@ export default function Experience(props: {role: string, company: string, time: 
 
     let type = "";
     if (props.pos != "m") {
-        type=`border-4 rounded-${props.pos}-lg max-w-md shadow-lg shadow-slate-100 hover:translate-y-2 hover:shadow-md hover:shadow-slate-100 transition duration-300 ease-in-out`
+        type=`border-4 rounded-${props.pos}-lg max-w-md shadow-lg shadow-white hover:translate-y-2 hover:shadow-md hover:shadow-white transition duration-300 ease-in-out`
     } else {
-        type="border-4 max-w-md shadow-lg shadow-slate-100 hover:translate-y-2 hover:shadow-md hover:shadow-slate-100 transition duration-300 ease-in-out"
+        type="border-4 max-w-md shadow-lg shadow-white hover:translate-y-2 hover:shadow-md hover:shadow-white transition duration-300 ease-in-out"
     }
     
     return (
-        // <div className="border-4 max-w-md shadow-lg shadow-slate-100 hover:translate-y-2 hover:shadow-md hover:shadow-slate-100 transition duration-300 ease-in-out">
+        // <div className="border-4 max-w-md shadow-lg shadow-white hover:translate-y-2 hover:shadow-md hover:shadow-white transition duration-300 ease-in-out">
         <div className={type}>
             <div className="opacity-0 rounded-tr-lg"></div>
             <div className="opacity-0 rounded-tl-lg"></div>
