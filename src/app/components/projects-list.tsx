@@ -51,7 +51,7 @@ export default function Projects() {
 
     return (
     <div>
-        <div className='text-6xl text-center pb-10 font-ss3 font-black'>Notable Projects</div>
+        <div className='text-white text-6xl text-center pb-10 font-ss3 font-black'>Notable Projects</div>
         <div className='grid grid-cols-2 gap-7'>
             <Project name={project.name} lang={project.lang} desc={project.desc} link={project.link} pos={project.pos}></Project>
             <Project name={project2.name} lang={project2.lang} desc={project2.desc} link={project2.link} pos={project2.pos} ></Project>

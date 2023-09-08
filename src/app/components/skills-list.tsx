@@ -91,7 +91,7 @@ export default function Skills() {
             </div>
 
             <div className="border-4 border-white pl-3 mb-10">
-                <div className="text-white text-ss3 text-5xl font-bold pt-3">Frameworks/Libraries</div>
+                <div className="text-white text-ss3 text-6xl font-bold pt-3">Frameworks/Libraries</div>
                 <div className="grid grid-cols-6 text-center gap-3 py-3 pr-3">
                     {framebraries.map((item, index) => (
                         <div key={index}>

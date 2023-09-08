@@ -19,7 +19,7 @@ export default function Experiences() {
     }
     return (
     <div className="mb-10 pt-36">
-            <div className='text-6xl text-center pb-10 font-ss3 font-black'>Experience</div>
+            <div className='text-white text-6xl text-center pb-10 font-ss3 font-black'>Experience</div>
             <div className="grid grid-cols-2 gap-7">
                 <Experience role={sk.role} company={sk.company} time={sk.time} description={sk.description} link={sk.link} pos={sk.pos}/>
                 <Experience role={library.role} company={library.company} time={library.time} description={library.description} link={library.link} pos={library.pos}/>
