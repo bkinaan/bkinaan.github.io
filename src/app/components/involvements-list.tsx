@@ -27,7 +27,7 @@ export default function Involvements() {
     }
     return (
     <div className="mb-10 pt-36">
-            <div className='text-white text-6xl text-center pb-10 font-ss3 font-black'>Campus Involvement</div>
+            <div className='text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black'>Campus Involvement</div>
             <div className="grid grid-cols-2 gap-7">
                 <Experience role={cmfk.role} company={cmfk.company} time={cmfk.time} description={cmfk.description} link={cmfk.link} pos={cmfk.pos}/>
                 <Experience role={mlp.role} company={mlp.company} time={mlp.time} description={mlp.description} link={mlp.link} pos={mlp.pos}/>
