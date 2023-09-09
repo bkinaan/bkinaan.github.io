@@ -43,7 +43,7 @@ export default function Projects() {
 
     let project6 = {
         name: "Portfolio",
-        lang: "Javascript, HTML, CSS",
+        lang: "Typescript, HTML, CSS",
         desc: "This project. Createad using Next.js and TailwindCSS. Hosted on GitHub Pages.",
         link: "https://github.com/bkinaan/bkinaan.github.io",
         pos: "br",
