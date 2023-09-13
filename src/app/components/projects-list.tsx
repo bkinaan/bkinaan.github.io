@@ -3,7 +3,7 @@ import Project from './project';
 export default function Projects() {
     let project = {
         name: "Serene",
-        lang: "Python, Scala, Javascript",
+        lang: "Python, Scala, JavaScript",
         desc: "A random forest classifier built to integrate Workday client data into database schema. Uses semantic labeling to predict mappings.",
         link: "https://github.com/bkinaan/serere-python-client",
         pos: "tl",
@@ -26,10 +26,10 @@ export default function Projects() {
     }
 
     let project4 = {
-        name: "Web Server",
-        lang: "C++",
-        desc: "Serves files to a browser. Also uses built in authentication.",
-        link: "#",
+        name: "Neural Network",
+        lang: "Python",
+        desc: "Currently following Andrej Karpathy's video series 'Zero to Hero' creating a deep neural network by hand.",
+        link: "https://github.com/bkinaan/nn-karpathy",
         pos: "m",
     }
 
