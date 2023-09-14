@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Brandon Kinaan',
   description: "Brandon Kinaan's Portfolio",
+  verification: {
+    google: "t0SUXRnA4CiotCvE58frOTKz2deLrIiYz_kmDzi2ZI8",
+  },
 }
 
 export default function RootLayout({
