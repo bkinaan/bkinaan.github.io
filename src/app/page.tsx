@@ -10,6 +10,8 @@ export default function Home() {
         <div>
         <Head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </Head>
+        <Head>
             <meta name="google-site-verification" content="t0SUXRnA4CiotCvE58frOTKz2deLrIiYz_kmDzi2ZI8" />
         </Head>
             <main className="flex min-h-screen flex-col items-center justify-between bg-black">
