@@ -36,8 +36,8 @@ export default function Projects() {
     let project5 = {
         name: "Pokemon Database",
         lang: "Javascript, HTML, CSS",
-        desc: "Displays Pokemon as cards from PokeAPI. Users can create custom teams which get stored on Firebase.",
-        link: "https://github.com/bkinaan/software-saturdays-final-project",
+        desc: "Displays Pokemon as cards from PokeAPI. Users can create custom teams which get stored on Firebase. Click for a live demo.",
+        link: "https://www.kinaan.me/software-saturdays-final-project/",
         pos: "bl",
     }
 
