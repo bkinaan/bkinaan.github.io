@@ -22,7 +22,7 @@ export default function Home() {
                         <source src="assets/name_cropped.mp4" type="video/mp4"/>
                     </video>
                 </div>
-                    <div className='z-20 py-1 md:py-5 mb-36 px-2 text-lg lg:text-2xl xl:text-2xl 2xl:text-4xl font-ss3 font-bold text-center text-black bg-white rounded-lg'>Junior | Honors | Machine Intelligence | Computer Science @ Purdue Univeristy</div>
+                    <div className='z-20 py-1 md:py-5 mb-36 px-2 text-lg lg:text-2xl xl:text-2xl 2xl:text-4xl font-ss3 font-bold text-center text-black bg-white rounded-lg'>Junior | Applied Data Science | Machine Intelligence | Computer Science @ Purdue Univeristy</div>
                 <div className='z-30'>
                     <Projects />
                 </div>
