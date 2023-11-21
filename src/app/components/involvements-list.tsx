@@ -5,15 +5,15 @@ export default function Involvements() {
         role: "Vice President of Programming",
         company: "College Mentors for Kids",
         time: "Aug. 2021 - current",
-        description: "I currently lead 50+ mentors and general managers every week as they mentor kids from the Greater Lafayette area. I ensure that activity runs smoothly and work to improve the overall club experience alongside the rest of the executive board. I have also developed algorithms for managing a ticket tracking system and am continously maintaining a database of everyone in the organization.",
+        description: "I am currently in charge of a dynamic team of 50+ mentors and general managers on a weekly basis, guiding them in mentoring children from the Greater Lafayette area. My role involves not only ensuring the seamless execution of activities but also collaborating with the executive board to enhance the overall club experience. Furthermore, I am consistently engaged in maintaining a comprehensive database encompassing every individual within the organization, ensuring streamlined operations and a well-organized structure.",
         link: "https://collegementors.org",
         pos: "tl"
     }
     let mlp = {
-        role: "Operations Officer",
-        company: "Machine Learning @ Purdue",
-        time: "June 2023 - current",
-        description: "I develop and execute social events for a club of over 1000 members. These social events help to build community and prepare members for post-undergraduate experiences in machine learning and other computer science related fields.",
+        role: "Mentor",
+        company: "Launchpad",
+        time: "Sept. 2023 - current",
+        description: "I have taken on the role of mentoring a freshman in computer science, dedicating weekly meetings to collaboratively delve into a project. Our interactions extend beyond the academic realm, as we actively participate in social events aimed at fostering a sense of community within the computer science and data science spheres. This commitment not only enhances our project work but also contributes to a supportive and inclusive environment while sharing learning experiences among fellow members in the field.",
         link: "https://ml-purdue.github.io/",
         pos: "tr"
     }
@@ -21,7 +21,7 @@ export default function Involvements() {
         role: "Board of Directors Member",
         company: "Purdue Alumni Student Experience",
         time: "Dec. 2021 - Dec. 2022",
-        description: "As part of the Campus Traditions committee I planned and directed events for a 8000+ member organization as well as the entire Purdue campus. These events promoted community building and socialization between a diverse set of students. Some of these events included John Purdue's birthday, March Madness and Finals Study Lounge.",
+        description: "In my role within the Campus Traditions committee, I orchestrated and executed events that captivated the engagement of over 8,000 members within the organization and resonated across the entirety of Purdue's campus. Notable highlights among these events included the celebration of John Purdue's birthday, the electrifying March Madness festivities, and the Finals Study Lounge.",
         link: "https://www.purdueforlife.org/connect/pase/",
         pos: "bl"
     }
