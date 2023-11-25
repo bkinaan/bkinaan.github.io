@@ -39,7 +39,7 @@ jobs:
         id: sitemap
         uses: cicirello/generate-sitemap@v1
         with:
-          base-url-path: https://THE.URL.TO.YOUR.PAGE/
+          base-url-path: https://www.kinaan.me
 
       - name: Output stats
         run: |
