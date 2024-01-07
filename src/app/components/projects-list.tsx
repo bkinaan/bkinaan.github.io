@@ -52,7 +52,7 @@ export default function Projects() {
   let current1 = {
     name: "Database Server",
     lang: "Javascript",
-    desc: "A custom REST API for Purdue College Mentors for Kids built using ExpressJS and SQLite.",
+    desc: "A custom REST API for Purdue College Mentors for Kids built using Express and SQLite.",
     link: "https://github.com/bkinaan/purdue-cmfk-database-server",
     pos: "l",
   };
