@@ -9,7 +9,7 @@ export default function Involvements() {
         link: "https://collegementors.org",
         pos: "tl"
     }
-    let mlp = {
+    let launchpad = {
         role: "Mentor",
         company: "Launchpad",
         time: "Sept. 2023 - current",
@@ -30,7 +30,7 @@ export default function Involvements() {
             <div className='text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black'>Campus Involvement</div>
             <div className="grid grid-cols-2 gap-7">
                 <Experience role={cmfk.role} company={cmfk.company} time={cmfk.time} description={cmfk.description} link={cmfk.link} pos={cmfk.pos}/>
-                <Experience role={mlp.role} company={mlp.company} time={mlp.time} description={mlp.description} link={mlp.link} pos={mlp.pos}/>
+                <Experience role={launchpad.role} company={launchpad.company} time={launchpad.time} description={launchpad.description} link={launchpad.link} pos={launchpad.pos}/>
                 <Experience role={pase.role} company={pase.company} time={pase.time} description={pase.description} link={pase.link} pos={pase.pos}/>
             </div>
     </div>
