@@ -35,7 +35,7 @@ export default function Projects() {
 
   let project5 = {
     name: "Pokemon Database",
-    lang: "Javascript, HTML, CSS",
+    lang: "JavaScript, HTML, CSS",
     desc: "Displays Pokemon as cards from PokeAPI. Users can create custom teams which get stored on Firebase. Click for a live demo.",
     link: "https://www.kinaan.me/software-saturdays-final-project/",
     pos: "bl",
@@ -43,7 +43,7 @@ export default function Projects() {
 
   let project6 = {
     name: "Portfolio",
-    lang: "Typescript, HTML, CSS",
+    lang: "TypeScript, HTML, CSS",
     desc: "This project. Created using Next.js and TailwindCSS. Hosted on GitHub Pages.",
     link: "https://github.com/bkinaan/bkinaan.github.io",
     pos: "br",
@@ -51,7 +51,7 @@ export default function Projects() {
 
   let current1 = {
     name: "Database Server",
-    lang: "Javascript",
+    lang: "JavaScript",
     desc: "A custom REST API built using Express, SQLite, and Sequelize with JWT authentication.",
     link: "https://github.com/bkinaan/purdue-cmfk-database-server",
     pos: "l",
@@ -59,7 +59,7 @@ export default function Projects() {
 
   let current2 = {
     name: "Database Client",
-    lang: "Typescript, Javascript",
+    lang: "TypeScript, JavaScript",
     desc: "A database client that lets users securely interact with a custom REST API. Tailored to each user individually.",
     link: "https://github.com/bkinaan/purdue-cmfk-database-client",
     pos: "r",

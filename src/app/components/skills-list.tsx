@@ -13,10 +13,10 @@ export default function Skills() {
       name: "C++",
     },
     {
-      name: "Javascript",
+      name: "JavaScript",
     },
     {
-      name: "Typescript",
+      name: "TypeScript",
     },
     {
       name: "Bash",
