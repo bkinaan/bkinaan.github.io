@@ -13,7 +13,7 @@ export default function Experiences() {
   let sk = {
     role: "Seasonal Lead Counselor",
     company: "Steve and Kate's Camp",
-    time: "May 2021 - Aug. 2023",
+    time: "May 2021 - Aug. 2024",
     description:
       "I worked as a lead counselor in a variying number of roles. I led the media lab that included animation iPads and programming applications. I also led the robotics studio that included Sphero and Vex robotics. I was also tasked with running two daily all-camp activities that included 200+ campers where I managed other counselors.",
     link: "https://steveandkatescamp.com",
