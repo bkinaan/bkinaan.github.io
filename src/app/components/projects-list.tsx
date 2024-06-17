@@ -1,23 +1,23 @@
 import Project from "./project";
 
 export default function Projects() {
-  let project = {
+  let serene = {
     name: "Serene",
     lang: "Python, Scala, JavaScript",
     desc: "A random forest classifier built to integrate Workday client data into database schema. Uses semantic labeling to predict mappings.",
     link: "https://github.com/bkinaan/serere-python-client",
-    pos: "tl",
+    pos: "m",
   };
 
-  let project2 = {
+  let darktime = {
     name: "Darktime",
     lang: "Java",
     desc: "A synchronous discussion management platform built using Java GUI. Lets instructors and students collaborate in real time.",
     link: "https://kinaan.wixsite.com/darktime",
-    pos: "tr",
+    pos: "m",
   };
 
-  let project3 = {
+  let shell = {
     name: "Shell",
     lang: "C, C++, Flex, Bison",
     desc: "Complete working shell. Parses inputs and exectutes commands. Click for a live demo.",
@@ -25,7 +25,7 @@ export default function Projects() {
     pos: "m",
   };
 
-  let project4 = {
+  let nn = {
     name: "Neural Network",
     lang: "Python",
     desc: "Currently following Andrej Karpathy's video series 'Zero to Hero' creating a deep neural network by hand.",
@@ -33,7 +33,7 @@ export default function Projects() {
     pos: "m",
   };
 
-  let project5 = {
+  let poke = {
     name: "Pokemon Database",
     lang: "JavaScript, HTML, CSS",
     desc: "Displays Pokemon as cards from PokeAPI. Users can create custom teams which get stored on Firebase. Click for a live demo.",
@@ -41,7 +41,7 @@ export default function Projects() {
     pos: "bl",
   };
 
-  let project6 = {
+  let portfolio = {
     name: "Portfolio",
     lang: "TypeScript, HTML, CSS",
     desc: "This project. Created using Next.js and TailwindCSS. Hosted on GitHub Pages.",
@@ -49,26 +49,26 @@ export default function Projects() {
     pos: "br",
   };
 
-  let current1 = {
+  let dbserver = {
     name: "Database Server",
     lang: "JavaScript",
     desc: "A custom REST API built using Express, SQLite, and Sequelize with JWT authentication.",
     link: "https://github.com/bkinaan/purdue-cmfk-database-server",
-    pos: "l",
+    pos: "tl",
   };
 
-  let current2 = {
+  let dbclient = {
     name: "Database Client",
     lang: "TypeScript, JavaScript",
     desc: "A database client that lets users securely interact with a custom REST API. Tailored to each user individually.",
     link: "https://github.com/bkinaan/purdue-cmfk-database-client",
-    pos: "r",
+    pos: "tr",
   };
 
   return (
     <div>
       <div className="pb-32">
-        <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
+        {/* <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
           {`What I'm Working On`}
         </div>
         <div className="grid grid-cols-2 gap-7">
@@ -86,53 +86,67 @@ export default function Projects() {
             link={current2.link}
             pos={current2.pos}
           ></Project>
-        </div>
+        </div> */}
       </div>
       <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
         Notable Projects
       </div>
       <div className="grid grid-cols-2 gap-7">
         <Project
-          name={project.name}
-          lang={project.lang}
-          desc={project.desc}
-          link={project.link}
-          pos={project.pos}
+          name={dbserver.name}
+          lang={dbserver.lang}
+          desc={dbserver.desc}
+          link={dbserver.link}
+          pos={dbserver.pos}
         ></Project>
         <Project
-          name={project2.name}
-          lang={project2.lang}
-          desc={project2.desc}
-          link={project2.link}
-          pos={project2.pos}
+          name={dbclient.name}
+          lang={dbclient.lang}
+          desc={dbclient.desc}
+          link={dbclient.link}
+          pos={dbclient.pos}
         ></Project>
         <Project
-          name={project3.name}
-          lang={project3.lang}
-          desc={project3.desc}
-          link={project3.link}
-          pos={project3.pos}
+          name={serene.name}
+          lang={serene.lang}
+          desc={serene.desc}
+          link={serene.link}
+          pos={serene.pos}
         ></Project>
         <Project
-          name={project4.name}
-          lang={project4.lang}
-          desc={project4.desc}
-          link={project4.link}
-          pos={project4.pos}
+          name={darktime.name}
+          lang={darktime.lang}
+          desc={darktime.desc}
+          link={darktime.link}
+          pos={darktime.pos}
         ></Project>
         <Project
-          name={project5.name}
-          lang={project5.lang}
-          desc={project5.desc}
-          link={project5.link}
-          pos={project5.pos}
+          name={shell.name}
+          lang={shell.lang}
+          desc={shell.desc}
+          link={shell.link}
+          pos={shell.pos}
         ></Project>
         <Project
-          name={project6.name}
-          lang={project6.lang}
-          desc={project6.desc}
-          link={project6.link}
-          pos={project6.pos}
+          name={nn.name}
+          lang={nn.lang}
+          desc={nn.desc}
+          link={nn.link}
+          pos={nn.pos}
+        ></Project>
+        <Project
+          name={poke.name}
+          lang={poke.lang}
+          desc={poke.desc}
+          link={poke.link}
+          pos={poke.pos}
+        ></Project>
+        <Project
+          name={portfolio.name}
+          lang={portfolio.lang}
+          desc={portfolio.desc}
+          link={portfolio.link}
+          pos={portfolio.pos}
         ></Project>
       </div>
     </div>
