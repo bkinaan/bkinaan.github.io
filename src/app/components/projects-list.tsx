@@ -20,7 +20,7 @@ export default function Projects() {
   let shell = {
     name: "Shell",
     lang: "C, C++, Flex, Bison",
-    desc: "Complete working shell. Parses inputs and exectutes commands. Click for a live demo.",
+    desc: "Complete working shell. Parses inputs and exectutes commands. Live demo coming soon.",
     link: "https://replit.com/@mannow7/shell#.ccls-cache/@@home@runner@C/@nix@store@4m98bsvjh538p292pr4604313mjmnpc5-clang-12.0.1-lib@lib@clang@12.0.1@include@stdarg.h",
     pos: "m",
   };
