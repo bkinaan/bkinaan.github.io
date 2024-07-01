@@ -65,13 +65,31 @@ export default function Projects() {
     pos: "tr",
   };
 
+  let crunit = {
+    name: "crunit",
+    lang: "JavaScript",
+    description:
+      "A react npm package for running C binaries on a browser. Interact with the C program using a terminal emulator.",
+    link: "https://github.com/bkinaan/crunit",
+    pos: "c",
+  };
+
   return (
     <div>
       <div className="pb-32">
-        {/* <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
+        <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
           {`What I'm Working On`}
         </div>
-        <div className="grid grid-cols-2 gap-7">
+        <div className=" flex justify-center">
+          <Project
+            name={crunit.name}
+            lang={crunit.lang}
+            desc={crunit.description}
+            link={crunit.link}
+            pos={crunit.pos}
+          ></Project>
+        </div>
+        {/* <div className="grid grid-cols-2 gap-7">
           <Project
             name={current1.name}
             lang={current1.lang}
