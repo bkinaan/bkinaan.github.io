@@ -76,7 +76,7 @@ export default function Projects() {
 
   return (
     <div>
-      <div className="pb-32">
+      {/* <div className="pb-32">
         <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
           {`What I'm Working On`}
         </div>
@@ -89,23 +89,7 @@ export default function Projects() {
             pos={crunit.pos}
           ></Project>
         </div>
-        {/* <div className="grid grid-cols-2 gap-7">
-          <Project
-            name={current1.name}
-            lang={current1.lang}
-            desc={current1.desc}
-            link={current1.link}
-            pos={current1.pos}
-          ></Project>
-          <Project
-            name={current2.name}
-            lang={current2.lang}
-            desc={current2.desc}
-            link={current2.link}
-            pos={current2.pos}
-          ></Project>
-        </div> */}
-      </div>
+      </div> */}
       <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
         Notable Projects
       </div>
