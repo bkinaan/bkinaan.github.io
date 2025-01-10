@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className="z-20 py-1 md:py-5 mb-36 px-2 text-lg lg:text-2xl xl:text-2xl 2xl:text-4xl font-ss3 font-bold text-center text-black bg-white rounded-lg">
           Senior | Applied Data Science | Machine Intelligence | Computer
-          Science @ Purdue Univeristy
+          Science @ Purdue University
         </div>
         <div className="z-30">
           <Projects />
