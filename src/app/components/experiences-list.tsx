@@ -6,7 +6,7 @@ export default function Experiences() {
     company: "Saxbys Coffee",
     time: "Feb. 2024 - current",
     description:
-      "As a shift lead for Saxbys, I manage and run the cafe alongside our SCEO. I am in charge of leading a group of team members to create various beverage and food items up to Saxbys standards. I also monitor the cafe for prep and delegate tasks to team members to maintain readiness for guests. In addition to working at the cafe, I am also enrolled in Saxbys Experiential Learning Platform. I am working on a number of badge courses to expand my skills both in and out of the cafe.",
+      "As a shift lead for Saxbys, I manage and run the cafe alongside our SCEO. I am in charge of leading a group of team members to create various beverage and food items up to Saxbys standards. I also monitor the cafe for prep and delegate tasks to team members to maintain readiness for guests. In addition to working at the cafe, I am also enrolled in Saxbys Experiential Learning Platform. I have completed a number of badge courses to expand my skills both in and out of the cafe. These include Strategic Marketing, Supply Chain Management, Training & Development, and Corporate Sustainability.",
     link: "https://saxbyscoffee.com",
     pos: "tl",
   };
@@ -24,7 +24,7 @@ export default function Experiences() {
     company: "Menlo Park Public Library",
     time: "Oct. 2018 - May 2020",
     description:
-      "I worked first as an intern and then as a library helper where I shelved books and ensuring library services ran efficently. I also operated opening and closing procedures to ensure that the library was ready for patrons.",
+      "I worked first as an intern and then as a library helper where I shelved books and ensured library services ran efficiently. I also operated opening and closing procedures to ensure that the library was ready for patrons.",
     link: "https://menlopark.gov/Government/Departments/Library-and-Community-Services/Library",
     pos: "bl",
   };

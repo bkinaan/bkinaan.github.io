@@ -6,7 +6,7 @@ export default function Involvements() {
     company: "College Mentors for Kids",
     time: "May 2024 - current",
     description:
-      "As President of College Mentors for Kids I operate and lead a member organization, one of the largest chapters in the nation. I work alongside a team of 10 executive board members and a national office located in Indianapolis. My goal as President is to improve overall community engagement and fundraising of our chapter. My team and I have started working on new initiatives for improvement including a more streamlined communication system and rewarding point metrics for overall engagement across the club.",
+      "As President of College Mentors for Kids I operate and lead a 200+ member organization. I work alongside a team of 10 executive board members and a national office located in Indianapolis. My goal as President is to create a more engaging community and improve fundraising efforts of our chapter. This chapter is the largest in the nation, making up about ten percent of the entire national organization. Since my time as President has begun, there have been successful improvements in member engagement and community building. We have also made overwhelmingly positive strides in fundraising and hit the halfway point on our fundraising goal by the end of the fall semester -- a goal not obtained by this chapter for five years. We have also been nominated for Chapter of the Year by the national office.",
     link: "https://collegementors.org",
     pos: "tl",
   };
