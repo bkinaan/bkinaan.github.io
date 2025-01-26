@@ -26,7 +26,7 @@ export default function Involvements() {
     time: "Sept. 2023 - Dec. 2023",
     description:
       "As part of Launchpad, I was the mentor for a freshman in Computer Science, and we  dedicated weekly meetings to diving into a project together. Our connection goes beyond just academics – we attended social events that aim to build a strong sense of community within the computer science and data science circles. This commitment isn't just about our project; it's about creating a supportive and inclusive environment where we can all learn from each other's experiences and grow together in the field.",
-    link: "https://www.instagram.com/launchpadpurdue/",
+    link: "https://launchpadpurdue.com/",
     pos: "m",
   };
   let pase = {
