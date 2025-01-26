@@ -6,7 +6,7 @@ export default function Involvements() {
     company: "College Mentors for Kids",
     time: "May 2024 - current",
     description:
-      "As President of College Mentors for Kids I operate and lead a 200+ member organization. I work alongside a team of 10 executive board members and a national office located in Indianapolis. My goal as President is to create a more engaging community and improve fundraising efforts of our chapter. This chapter is the largest in the nation, making up about ten percent of the entire national organization. Since my time as President has begun, there have been successful improvements in member engagement and community building. We have also made overwhelmingly positive strides in fundraising and hit the halfway point on our fundraising goal by the end of the fall semester -- a goal not obtained by this chapter for five years. We have also been nominated for Chapter of the Year by the national office.",
+      "As President of College Mentors for Kids I operate and lead a 200+ member organization. I work alongside a team of 11 executive board members and a national office located in Indianapolis. My aim as President is to create a more engaging community and improve fundraising efforts of our chapter. This chapter is the largest in the nation, making up about ten percent of the entire national organization. Since my time as President has begun, there have been successful improvements in member engagement and community building. We have also made overwhelmingly positive strides in fundraising and hit the halfway point on our fundraising goal by the end of the fall semester -- a goal not obtained by this chapter for five years. We have also been nominated for Chapter of the Year by the national office.",
     link: "https://collegementors.org",
     pos: "tl",
   };
@@ -36,17 +36,27 @@ export default function Involvements() {
     description:
       "In my role within the Campus Traditions committee, I orchestrated and executed events created for the engagement of over 8,000 members within the organization and resonated across the entirety of Purdue's campus. Notable highlights among these events included the celebration of John Purdue's birthday, March Madness festivities, and the Finals Study Lounge.",
     link: "https://www.purdueforlife.org/connect/pase/",
-    pos: "bl",
+    pos: "br",
   };
 
   let ih = {
     role: "Technical Mentor",
-    company: "Innovate Her Hackathon",
-    time: "March 2024",
+    company: "InnovateHer",
+    time: "Mar. 2024, Jan. 2025",
     description:
-      "As a technical mentor for the Innovate Her hackathon, I had the privilege of guiding and empowering aspiring female innovators. My role involved providing hands-on support, sharing technical insights, and offering strategic advice to help participants overcome challenges and realize their ideas. Through my mentorship, these talented individuals gained valuable skills and confidence, setting them on a path for success in the ever-evolving realm of technology and innovation. It was incredibly rewarding to contribute to a more diverse and inclusive industry landscape through this role.",
-    link: "https://www.innovate-her.com/",
+      "As a technical mentor for the 2024 and 2025 InnovateHer hackathons, I had the privilege of guiding and empowering aspiring female innovators. My role involved providing hands-on support, sharing technical insights, and offering strategic advice to help participants overcome challenges and realize their ideas. Through my mentorship, these talented individuals gained valuable skills and confidence, setting them on a path for success in the ever-evolving realm of technology and innovation. It was incredibly rewarding to contribute to a more diverse and inclusive industry landscape through this role.",
+    link: "https://innovateherhacks.org/",
     pos: "m",
+  };
+
+  let bgr = {
+    role: "Team Leader",
+    company: "Boiler Gold Rush",
+    time: "Aug. 2022, 2023",
+    description:
+      "As a Team Leader, I worked with Purdue’s Orientation programs to introduce new students to campus and get them ready and situated for life in college. Before the week of the event kicked off I had a multi-day long training with a group of other TLs. I gained invaluable friendships and learned a number of useful skills I could apply even outside of the program including leadership, collaboration and facilitation. During the week-of, I led a group of about 12 new students hrough a series of events and activities that aimed to prepare them not only for further education but also a more independent life away from home.",
+    link: "",
+    pos: "bl",
   };
   return (
     <div className="mb-10 pt-36">
@@ -85,6 +95,14 @@ export default function Involvements() {
           description={launchpad.description}
           link={launchpad.link}
           pos={launchpad.pos}
+        />
+        <Experience
+          role={bgr.role}
+          company={bgr.company}
+          time={bgr.time}
+          description={bgr.description}
+          link={bgr.link}
+          pos={bgr.pos}
         />
         <Experience
           role={pase.role}

@@ -44,7 +44,7 @@ export default function Projects() {
   let portfolio = {
     name: "Portfolio",
     lang: "TypeScript, HTML, CSS",
-    desc: "This project. Created using Next.js and TailwindCSS. Hosted on GitHub Pages.",
+    desc: "This project. Created from scratch using Next.js and TailwindCSS. Hosted on GitHub Pages.",
     link: "https://github.com/bkinaan/bkinaan.github.io",
     pos: "br",
   };
