@@ -55,7 +55,7 @@ export default function Involvements() {
     time: "Aug. 2022, 2023",
     description:
       "As a Team Leader, I worked with Purdue’s Orientation programs to introduce new students to campus and get them ready and situated for life in college. Before the week of the event kicked off I had a multi-day long training with a group of other TLs. I gained invaluable friendships and learned a number of useful skills I could apply even outside of the program including leadership, collaboration and facilitation. During the week-of, I led a group of about 12 new students hrough a series of events and activities that aimed to prepare them not only for further education but also a more independent life away from home.",
-    link: "",
+    link: "https://www.purdue.edu/orientation/bgr/index.html",
     pos: "bl",
   };
   return (
