@@ -23,7 +23,7 @@ export default function Education() {
             <div className="text-white font-ss3">
               Earned a Bachelor of Science in Computer Science with a
               concentration in Machine Intelligence and a certificate in Applied
-              Data Science from Purdue University's Main Campus.
+              Data Science from Purdue University&apos;s Main Campus.
             </div>
             {/* <div className="font-ss3 font-extralight">Check it out <a href={props.link}>here</a></div>   */}
           </a>
