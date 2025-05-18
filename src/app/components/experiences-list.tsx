@@ -4,7 +4,7 @@ export default function Experiences() {
   let saxbys = {
     role: "Shift Lead",
     company: "Saxbys Coffee",
-    time: "Feb. 2024 - current",
+    time: "Feb. 2024 - May 2025",
     description:
       "As a shift lead for Saxbys, I manage and run the cafe alongside our SCEO. I am in charge of leading a group of team members to create various beverage and food items up to Saxbys standards. I also monitor the cafe for prep and delegate tasks to team members to maintain readiness for guests. In addition to working at the cafe, I am also enrolled in Saxbys Experiential Learning Platform. I have completed a number of badge courses to expand my skills both in and out of the cafe. These include Strategic Marketing, Supply Chain Management, Training & Development, and Corporate Sustainability.",
     link: "https://saxbyscoffee.com",

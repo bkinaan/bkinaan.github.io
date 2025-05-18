@@ -3,6 +3,7 @@ import Top from "./components/top";
 import Skills from "./components/skills-list";
 import Experiences from "./components/experiences-list";
 import Involvements from "./components/involvements-list";
+import Education from "./components/education";
 import Head from "next/head";
 
 export default function Home() {
@@ -27,10 +28,13 @@ export default function Home() {
             <source src="assets/name_cropped.mp4" type="video/mp4" />
           </video>
         </div>
-        <div className="z-20 py-1 md:py-5 mb-36 px-2 text-lg lg:text-2xl xl:text-2xl 2xl:text-4xl font-ss3 font-bold text-center text-black bg-white rounded-lg">
+        <div className="mb-36"></div>
+        {/* <div className="z-20 py-1 md:py-5 mb-36 px-2 text-lg lg:text-2xl xl:text-2xl 2xl:text-4xl font-ss3 font-bold text-center text-black bg-white rounded-lg">
           Senior | Applied Data Science | Machine Intelligence | Computer
           Science @ Purdue University
-        </div>
+        </div> */}
+        <Education />
+        <div className="mb-48"></div>
         <div className="z-30">
           <Projects />
         </div>
