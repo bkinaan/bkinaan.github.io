@@ -25,7 +25,7 @@ export default function Involvements() {
     company: "Launchpad",
     time: "Sept. 2023 - Dec. 2023",
     description:
-      "As part of Launchpad, I was the mentor for a freshman in Computer Science, and we  dedicated weekly meetings to diving into a project together. Our connection goes beyond just academics – we attended social events that aim to build a strong sense of community within the computer science and data science circles. This commitment isn't just about our project; it's about creating a supportive and inclusive environment where we can all learn from each other's experiences and grow together in the field.",
+      "As part of Launchpad, I was the mentor for a freshman in Computer Science, and we  dedicated weekly meetings to diving into a project together. Our connection goes beyond just academics as we attended social events that aim to build a strong sense of community within the computer science and data science circles. This commitment isn't just about our project; it's about creating a supportive and inclusive environment where we can all learn from each other's experiences and grow together in the field.",
     link: "https://launchpadpurdue.com/",
     pos: "m",
   };
@@ -54,7 +54,7 @@ export default function Involvements() {
     company: "Boiler Gold Rush",
     time: "Aug. 2022, 2023",
     description:
-      "As a Team Leader, I worked with Purdue’s Orientation programs to introduce new students to campus and get them ready and situated for life in college. Before the week of the event kicked off I had a multi-day long training with a group of other TLs. I gained invaluable friendships and learned a number of useful skills I could apply even outside of the program including leadership, collaboration and facilitation. During the week-of, I led a group of about 12 new students hrough a series of events and activities that aimed to prepare them not only for further education but also a more independent life away from home.",
+      "As a Team Leader, I worked with Purdue’s Orientation programs to introduce new students to campus and get them ready and situated for life in college. Before the week of the event kicked off I had a multi-day long training with a group of other TLs. I gained invaluable friendships and learned a number of useful skills I could apply even outside of the program including leadership, collaboration and facilitation. During the week-of, I led a group of about 12 new students through a series of events and activities that aimed to prepare them not only for further education but also a more independent life away from home.",
     link: "https://www.purdue.edu/orientation/bgr/index.html",
     pos: "bl",
   };
