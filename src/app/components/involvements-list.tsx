@@ -61,7 +61,7 @@ export default function Involvements() {
   return (
     <div className="mb-10 pt-36">
       <div className="font-ss3 pb-10 text-center text-4xl font-black text-white md:text-6xl">
-        Campus Involvement
+        Leadership & Involvement
       </div>
       <div className="grid grid-cols-2 gap-7">
         <Experience
