@@ -4,6 +4,7 @@ import Skills from "./components/skills-list";
 import Experiences from "./components/experiences-list";
 import Involvements from "./components/involvements-list";
 import Education from "./components/education";
+import Job from "./components/job-list";
 import Head from "next/head";
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
           Senior | Applied Data Science | Machine Intelligence | Computer
           Science @ Purdue University
         </div> */}
+        <Job />
         <Education />
         <div className="mb-48"></div>
         <div className="z-30">
