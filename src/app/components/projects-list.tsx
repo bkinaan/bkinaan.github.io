@@ -74,22 +74,31 @@ export default function Projects() {
     pos: "c",
   };
 
+  let scm = {
+    name: "Secure Contact Manager",
+    lang: "Python",
+    description:
+      "A secure contact manager that includes advanced python topics. See the complete list of these topics in the checklist file.",
+    link: "https://github.com/bkinaan/scm",
+    pos: "c",
+  };
+
   return (
     <div>
-      {/* <div className="pb-32">
+      <div className="pb-32">
         <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
           {`What I'm Working On`}
         </div>
         <div className=" flex justify-center">
           <Project
-            name={crunit.name}
-            lang={crunit.lang}
-            desc={crunit.description}
-            link={crunit.link}
-            pos={crunit.pos}
+            name={scm.name}
+            lang={scm.lang}
+            desc={scm.description}
+            link={scm.link}
+            pos={scm.pos}
           ></Project>
         </div>
-      </div> */}
+      </div>
       <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
         Notable Projects
       </div>
