@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.kinaan.me
+Host: https://kinaan.me
 
 # Sitemaps
-Sitemap: https://www.kinaan.me/sitemap.xml
+Sitemap: https://kinaan.me/sitemap.xml
