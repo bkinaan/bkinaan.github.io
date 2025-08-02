@@ -6,7 +6,29 @@ export default function Experiences() {
     ttl: "Shift Lead",
     subttl: "Saxbys Coffee",
     subsubttl: "Feb. 2024 - May 2025",
-    desc: "As a shift lead for Saxbys, I manage and run the cafe alongside our SCEO. I am in charge of leading a group of team members to create various beverage and food items up to Saxbys standards. I also monitor the cafe for prep and delegate tasks to team members to maintain readiness for guests. In addition to working at the cafe, I am also enrolled in Saxbys Experiential Learning Platform. I have completed a number of badge courses to expand my skills both in and out of the cafe. These include Strategic Marketing, Supply Chain Management, Training & Development, and Corporate Sustainability.",
+    desc: (
+      <>
+        <ul className="list-disc pl-5">
+          <li>
+            Co-led daily café operations alongside the SCEO, ensuring efficient
+            service and high-quality guest experiences
+          </li>
+          <li>
+            Supervised and guided team members in preparing beverages and food
+            items to meet Saxbys' standards
+          </li>
+          <li>
+            Oversaw café readiness by monitoring prep levels and delegating
+            tasks to maintain smooth operations
+          </li>
+          <li>
+            Completed Saxbys Experiential Learning Platform badge courses in
+            Strategic Marketing, Supply Chain Management, Training &
+            Development, and Corporate Sustainability
+          </li>
+        </ul>
+      </>
+    ),
     link: "https://saxbyscoffee.com",
     pos: "tl",
   };
@@ -14,7 +36,24 @@ export default function Experiences() {
     ttl: "Seasonal Lead Counselor",
     subttl: "Steve and Kate's Camp",
     subsubttl: "May 2021 - Aug. 2024",
-    desc: "I worked as a lead counselor in a varying number of roles. I led the media lab that included animation iPads and programming applications. I also led the robotics studio that included Sphero and Vex robotics. I was also tasked with running two daily all-camp activities that included 200+ campers where I managed other counselors.",
+    desc: (
+      <>
+        <ul className="list-disc pl-5">
+          <li>
+            Directed the Media Lab, leading animation and programming activities
+            using iPads and coding applications
+          </li>
+          <li>
+            Managed the Robotics Studio, guiding campers in hands-on projects
+            with Sphero and VEX robotics
+          </li>
+          <li>
+            Organized and led two daily all-camp activities for 200+ campers,
+            supervising and coordinating other counselors
+          </li>
+        </ul>
+      </>
+    ),
     link: "https://steveandkatescamp.com",
     pos: "tr",
   };
@@ -22,7 +61,24 @@ export default function Experiences() {
     ttl: "Library Page",
     subttl: "Menlo Park Public Library",
     subsubttl: "Oct. 2018 - May 2020",
-    desc: "I worked first as an intern and then as a library helper where I shelved books and ensured library services ran efficiently. I also operated opening and closing procedures to ensure that the library was ready for patrons.",
+    desc: (
+      <>
+        <ul className="list-disc pl-5">
+          <li>
+            Shelved and organized books to maintain an efficient and accessible
+            library system
+          </li>
+          <li>
+            Supported daily library operations, including opening and closing
+            procedures to ensure readiness for patrons
+          </li>
+          <li>
+            Assisted with providing smooth library services to enhance the
+            patron experience
+          </li>
+        </ul>
+      </>
+    ),
     link: "https://menlopark.gov/Government/Departments/Library-and-Community-Services/Library",
     pos: "bl",
   };
@@ -32,7 +88,7 @@ export default function Experiences() {
       <div className="grid grid-cols-2 gap-7">
         <Item data={saxbys} />
         <Item data={sk} />
-        <Item data={library} />
+        {/* <Item data={library} /> */}
       </div>
     </div>
   );
