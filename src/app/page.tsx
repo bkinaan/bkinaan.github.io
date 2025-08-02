@@ -30,10 +30,6 @@ export default function Home() {
           </video>
         </div>
         <div className="mb-36"></div>
-        {/* <div className="z-20 py-1 md:py-5 mb-36 px-2 text-lg lg:text-2xl xl:text-2xl 2xl:text-4xl font-ss3 font-bold text-center text-black bg-white rounded-lg">
-          Senior | Applied Data Science | Machine Intelligence | Computer
-          Science @ Purdue University
-        </div> */}
         <Job />
         <Education />
         <div className="mb-48"></div>
