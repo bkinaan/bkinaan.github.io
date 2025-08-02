@@ -1,4 +1,5 @@
 import Item from "./item";
+import Title from "./section-title";
 
 export default function Education() {
   let purdue = {
@@ -10,9 +11,7 @@ export default function Education() {
   };
   return (
     <div>
-      <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
-        Education
-      </div>
+      <Title title="Education" />
       <div className=" flex justify-center">
         <Item data={purdue} />
       </div>

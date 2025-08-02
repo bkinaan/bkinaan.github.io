@@ -1,4 +1,5 @@
 import Item from "./item";
+import Title from "./section-title";
 
 export default function Jobs() {
   let fdm = {
@@ -21,9 +22,7 @@ export default function Jobs() {
 
   return (
     <div className="mb-36">
-      <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
-        Relevant Work
-      </div>
+      <Title title="Relevant Work" />
       <div className="grid grid-cols-2 gap-7">
         <Item data={ver} />
         <Item data={fdm} />

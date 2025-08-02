@@ -1,4 +1,5 @@
 import Item from "./item";
+import Title from "./section-title";
 
 export default function Projects() {
   let serene = {
@@ -76,16 +77,12 @@ export default function Projects() {
   return (
     <div>
       <div className="pb-32">
-        <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
-          {`What I'm Working On`}
-        </div>
+        <Title title="What I'm Working On" />
         <div className=" flex justify-center">
           <Item data={scm} />
         </div>
       </div>
-      <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
-        Notable Projects
-      </div>
+      <Title title="Notable Projects" />
       <div className="grid grid-cols-2 gap-7">
         <Item data={dbserver} />
         <Item data={dbclient} />

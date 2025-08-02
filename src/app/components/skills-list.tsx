@@ -1,3 +1,5 @@
+import Title from "./section-title";
+
 export default function Skills() {
   const langauges = [
     {
@@ -87,9 +89,7 @@ export default function Skills() {
   ];
   return (
     <div className="mb-10">
-      <div className="text-white text-4xl md:text-6xl text-center pb-10 font-ss3 font-black">
-        Technical Skills
-      </div>
+      <Title title="Technical Skills" />
       <div className="grid grid-cols-1">
         <div className="border-4 border-white pl-3 rounded-t-lg mb-10">
           <div className="text-white text-ss3 text-3xl md:text-5xl font-bold pt-3">

@@ -1,4 +1,5 @@
 import Item from "./item";
+import Title from "./section-title";
 
 export default function Involvements() {
   let cmfk_pres = {
@@ -54,9 +55,7 @@ export default function Involvements() {
   };
   return (
     <div className="mb-10 pt-36">
-      <div className="font-ss3 pb-10 text-center text-4xl font-black text-white md:text-6xl">
-        Leadership & Involvement
-      </div>
+      <Title title="Leadership & Involvement" />
       <div className="grid grid-cols-2 gap-7">
         <Item data={cmfk_pres} />
         <Item data={cmfk_vp} />
