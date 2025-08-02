@@ -1,6 +1,6 @@
 import Projects from "./components/projects-list";
 import Top from "./components/top";
-import Skills from "./components/skills-list";
+import Skills from "./components/skills-section";
 import Experiences from "./components/experiences-list";
 import Involvements from "./components/involvements-list";
 import Education from "./components/education";
