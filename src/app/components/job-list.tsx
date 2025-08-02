@@ -6,7 +6,25 @@ export default function Jobs() {
     ttl: "IT Operations Consultant",
     subttl: "FDM Group",
     subsubttl: "Jun. 2025 - current",
-    desc: "Under the IT Operations Pratice I trained to support business-critical responsibilities and specialist areas such as infrastructure and security. I worked to be placed with a client contributing to enhancing key system reliability through integration and deployment, leading to long-term operational success. Through this training I learned how to be prepared to take on roles such as DevOps, System Admin, Production Support Engineer or Site Reliability Engineer.",
+    desc: (
+      <>
+        <ul className="list-disc pl-5">
+          <li>
+            Completed intensive training under the IT Operations Practice at
+            FDM, focusing on infrastructure, security, and production support
+            for business-critical system
+          </li>
+          <li>
+            Gained hands-on experience with system integration, deployment, and
+            reliability engineering to ensure long-term operational success
+          </li>
+          <li>
+            Developed skills to support infrastructure management, DevOps
+            practices, and incident response in high-availability environments
+          </li>
+        </ul>
+      </>
+    ),
     link: "https://www.fdmgroup.com/us/",
     pos: "r",
   };
@@ -15,7 +33,28 @@ export default function Jobs() {
     ttl: "Production Support Engineer",
     subttl: "Verition Fund Management",
     subsubttl: "Jul. 2025 - current",
-    desc: "As a Level 1 Production Support Engineer at Verition I monitor and support internal production systems to ensure high availablity, reliability, and performance for traders. Alongside a global team, I proactively identify, troubleshoot, and escalate technical issues, minimizing downtime and mitigating operational risk. I collaborate with trading, development, and infrastructure teams to drive quick resolutions and maintain system integrity. Through effective communication and coordination, I help ensure critical trading operations run smoothly in a fast-paced, high pressure environment.",
+    desc: (
+      <>
+        <ul className="list-disc pl-5">
+          <li>
+            Monitor and support production systems to ensure high availability,
+            reliability, and performance for traders
+          </li>
+          <li>
+            Troubleshoot and resolve real-time incidents, escalating complex
+            issues to development or infrastructure teams as needed
+          </li>
+          <li>
+            Conduct root cause analysis and document resolutions to prevent
+            recurring issues
+          </li>
+          <li>
+            Contribute to process improvements and automation to enhance
+            efficiency and reduce downtime`,
+          </li>
+        </ul>
+      </>
+    ),
     link: "https://verition.com",
     pos: "l",
   };

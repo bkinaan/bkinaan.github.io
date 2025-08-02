@@ -2,7 +2,7 @@ type ItemProps = {
   ttl: string;
   subttl?: string;
   subsubttl?: string;
-  desc: string;
+  desc: JSX.Element;
   link: string;
   pos: string;
 };
@@ -44,7 +44,9 @@ export default function Item({ data }: { data: ItemProps }) {
           <div className="text-white `font-ss3 font-thin pb-3">
             {data.subsubttl}
           </div>
-          <div className="text-white font-ss3">{data.desc}</div>
+          <div className="text-white font-ss3 whitespace-pre-line">
+            {data.desc}
+          </div>
         </a>
       </div>
     </div>
