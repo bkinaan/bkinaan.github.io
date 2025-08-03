@@ -46,8 +46,8 @@ export default function Projects() {
     subsubttl: "Python",
     desc: (
       <>
-        Currently following Andrej Karpathy's video series 'Zero to Hero'
-        creating a deep neural network by hand.
+        Currently following Andrej Karpathy&apos;s video series &apos;Zero to
+        Hero&apos; creating a deep neural network by hand.
       </>
     ),
     link: "https://github.com/bkinaan/nn-karpathy",

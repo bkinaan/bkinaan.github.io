@@ -15,7 +15,7 @@ export default function Experiences() {
           </li>
           <li>
             Supervised and guided team members in preparing beverages and food
-            items to meet Saxbys' standards
+            items to meet Saxbys&apos; standards
           </li>
           <li>
             Oversaw café readiness by monitoring prep levels and delegating

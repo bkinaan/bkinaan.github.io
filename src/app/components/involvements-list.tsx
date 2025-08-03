@@ -106,8 +106,8 @@ export default function Involvements() {
             student participants
           </li>
           <li>
-            Coordinated signature programs including John Purdue's Birthday,
-            March Madness festivities, and the Finals Study Lounge
+            Coordinated signature programs including John Purdue&apos;s
+            Birthday, March Madness festivities, and the Finals Study Lounge
           </li>
           <li>
             Enhanced campus engagement by designing inclusive events that foster
@@ -144,7 +144,7 @@ export default function Involvements() {
             underrepresented voices in innovation
           </li>
           <li>
-            Contributed to participants' skill development and confidence,
+            Contributed to participants&apos; skill development and confidence,
             supporting their growth in STEM fields
           </li>
         </ul>
@@ -170,7 +170,7 @@ export default function Involvements() {
             ease their transition to college life
           </li>
           <li>
-            Introduced incoming students to Purdue's campus, resources, and
+            Introduced incoming students to Purdue&apos;s campus, resources, and
             community to foster academic and social readiness
           </li>
           <li>
