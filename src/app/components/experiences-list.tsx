@@ -88,7 +88,7 @@ export default function Experiences() {
       <div className="grid grid-cols-2 gap-7">
         <Item data={saxbys} />
         <Item data={sk} />
-        {/* <Item data={library} /> */}
+        <Item data={library} />
       </div>
     </div>
   );
