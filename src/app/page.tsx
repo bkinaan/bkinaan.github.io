@@ -1,3 +1,5 @@
+"use client";
+
 import Projects from "./components/projects-list";
 import Top from "./components/top";
 import Skills from "./components/skills-section";
@@ -25,7 +27,18 @@ export default function Home() {
           Hello, there! I&apos;m
         </div>
         <div className="pb-10">
-          <video className="z-0" autoPlay muted playsInline>
+          <video
+            className="z-0"
+            autoPlay
+            muted
+            playsInline
+            onEnded={(e) => {
+              const videoElement = e.currentTarget;
+              videoElement.src = "assets/"; // TODO: add path to new video asset
+              videoElement.loop = true;
+              videoElement.play();
+            }}
+          >
             <source src="assets/name_cropped.mp4" type="video/mp4" />
           </video>
         </div>
