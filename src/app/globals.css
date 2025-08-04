@@ -27,3 +27,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* apply section spacing */
+.section-spacing {
+  @apply mb-10 pt-36;
+}
+
+.grid-layout {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-7
+}

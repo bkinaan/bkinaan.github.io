@@ -83,9 +83,9 @@ export default function Experiences() {
     pos: "bl",
   };
   return (
-    <div className="mb-10 pt-36">
+    <div className="section-spacing">
       <Title title="Work Experience" />
-      <div className="grid grid-cols-2 gap-7">
+      <div className="grid-layout">
         <Item data={saxbys} />
         <Item data={sk} />
         <Item data={library} />

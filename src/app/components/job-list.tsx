@@ -62,7 +62,7 @@ export default function Jobs() {
   return (
     <div className="mb-36">
       <Title title="Relevant Work" />
-      <div className="grid grid-cols-2 gap-7">
+      <div className="grid-layout">
         <Item data={ver} />
         <Item data={fdm} />
       </div>

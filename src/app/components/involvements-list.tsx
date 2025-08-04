@@ -184,9 +184,9 @@ export default function Involvements() {
     pos: "bl",
   };
   return (
-    <div className="mb-10 pt-36">
+    <div className="section-spacing">
       <Title title="Leadership & Involvement" />
-      <div className="grid grid-cols-2 gap-7">
+      <div className="grid-layout">
         <Item data={cmfk_pres} />
         <Item data={cmfk_vp} />
         <Item data={ih} />

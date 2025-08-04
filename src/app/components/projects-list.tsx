@@ -128,7 +128,7 @@ export default function Projects() {
         </div>
       </div>
       <Title title="Notable Projects" />
-      <div className="grid grid-cols-2 gap-7">
+      <div className="grid-layout">
         <Item data={dbserver} />
         <Item data={dbclient} />
         <Item data={serene} />

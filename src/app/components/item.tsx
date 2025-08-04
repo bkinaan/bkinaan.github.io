@@ -1,3 +1,7 @@
+"use client";
+
+import { useEffect, useState } from "react";
+
 type ItemProps = {
   ttl: string;
   subttl?: string;
@@ -15,9 +19,21 @@ export default function Item({ data }: { data: ItemProps }) {
         - bl => bottom left
         - br => bottom right
     */
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   let type = "";
-  if (data.pos == "c") {
-    type = `border-4 rounded-lg max-w-md shadow-lg shadow-white hover:translate-y-2 hover:shadow-md hover:shadow-white transition duration-300 ease-in-out`;
+  if (data.pos == "c" || isMobile) {
+    type = `border-4 rounded-lg max-w-md shadow-lg shadow-white hover:translate-y-2 hover:shadow-md hover:shadow-white transition duration-300 ease-in-out mx-4w`;
   } else if (data.pos != "m") {
     type = `border-4 rounded-${data.pos}-lg max-w-md shadow-lg shadow-white hover:translate-y-2 hover:shadow-md hover:shadow-white transition duration-300 ease-in-out`;
   } else {
