@@ -34,7 +34,7 @@ export default function Home() {
             playsInline
             onEnded={(e) => {
               const videoElement = e.currentTarget;
-              videoElement.src = "assets/name_cont_cropped.mp4"; // TODO: add path to new video asset
+              videoElement.src = "assets/name_cont_cropped.mp4"; // TODO: make this video longer
               videoElement.loop = true;
               videoElement.play();
             }}
