@@ -50,7 +50,7 @@ export default function Jobs() {
           </li>
           <li>
             Contribute to process improvements and automation to enhance
-            efficiency and reduce downtime`,
+            efficiency and reduce downtime
           </li>
         </ul>
       </>
