@@ -13,7 +13,7 @@ export default function Education() {
       </>
     ),
     link: "https://www.cs.purdue.edu/undergraduate/index.html",
-    pos: "m",
+    pos: "c",
   };
   return (
     <div>
