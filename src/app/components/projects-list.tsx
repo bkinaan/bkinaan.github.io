@@ -106,27 +106,8 @@ export default function Projects() {
     pos: "tr",
   };
 
-  let scm = {
-    ttl: "Secure Contact Manager",
-    subsubttl: "Python",
-    desc: (
-      <>
-        A secure contact manager that includes advanced python topics. See the
-        complete list of these topics in the checklist file.
-      </>
-    ),
-    link: "https://github.com/bkinaan/scm",
-    pos: "c",
-  };
-
   return (
     <div>
-      <div className="pb-32">
-        <Title title="What I'm Working On" />
-        <div className=" flex justify-center">
-          <Item data={scm} />
-        </div>
-      </div>
       <Title title="Notable Projects" />
       <div className="grid-layout">
         <Item data={dbserver} />
