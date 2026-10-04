@@ -21,6 +21,7 @@ export default function Jobs() {
           <li>
             Developed skills to support infrastructure management, DevOps
             practices, and incident response in high-availability environments
+            while on site with a client
           </li>
         </ul>
       </>
@@ -30,41 +31,52 @@ export default function Jobs() {
   };
 
   let ver = {
-    ttl: "Production Support Engineer",
-    subttl: "Verition Fund Management",
+    ttl: "Production Support Analyst",
+    subttl: "Verition Fund Management (Consulted through FDM Group)",
     subsubttl: "Jul. 2025 - current",
     desc: (
       <>
         <ul className="list-disc pl-5">
           <li>
-            Monitor and support production systems to ensure high availability,
-            reliability, and performance for traders
+            Investigate data discrepancies across all production systems by
+            querying and cross-referencing multiple sources to determine root
+            cause, resolving approximately 20 issues per month
           </li>
           <li>
-            Troubleshoot and resolve real-time incidents, escalating complex
-            issues to development or infrastructure teams as needed
+            Translate operational needs into requirements and prioritize the
+            backlog for an internal trade workflow management platform, driving
+            delivery of 60+ features in 8 months
           </li>
           <li>
-            Conduct root cause analysis and document resolutions to prevent
-            recurring issues
+            Build internal Python and Bash scripting tools to automate
+            investigation steps
           </li>
           <li>
-            Contribute to process improvements and automation to enhance
-            efficiency and reduce downtime
+            Serve as subject-matter expert across industry-standard and internal
+            production systems, partnering with numerous departments to
+            proactively identify and drive improvements
+          </li>
+          <li>
+            Facilitate collaboration across support, development, and business
+            teams to resolve cross-departmental issues faster, reducing repeat
+            escalations
+          </li>
+          <li>
+            Use Claude AI to analyze relevant data during investigations, draft
+            postmortems, and cut review time with all outputs verified manually
           </li>
         </ul>
       </>
     ),
     link: "https://verition.com",
-    pos: "l",
+    pos: "c",
   };
 
   return (
     <div className="mb-36">
       <Title title="Relevant Work" />
-      <div className="grid-layout">
+      <div className="">
         <Item data={ver} />
-        <Item data={fdm} />
       </div>
     </div>
   );
